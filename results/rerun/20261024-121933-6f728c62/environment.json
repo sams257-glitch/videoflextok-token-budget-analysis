@@ -1,0 +1,46 @@
+{
+  "run_id": "20261024-121933-6f728c62",
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch": "2.8.0+cu128",
+  "cuda_available": true,
+  "gpu_name": "Tesla T4",
+  "model_id": "EPFL-VILAB/videoflextok_d18_d18_k600",
+  "seed": 42,
+  "token_budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "fps": 8,
+  "num_frames": 17,
+  "resolution": [
+    128,
+    128
+  ],
+  "decoder_settings": {
+    "timesteps": 40,
+    "guidance_scale": 25,
+    "perform_norm_guidance": true,
+    "eta": 0.0,
+    "momentum": 0.0,
+    "norm_threshold": 0.6,
+    "verbose": false
+  },
+  "packages": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "diffusers": "0.42.0",
+    "transformers": "5.20.2",
+    "huggingface-hub": "2.3.0",
+    "torchao": "0.10.0",
+    "hydra-core": "1.3.7",
+    "mup": "1.0.0",
+    "eva-decord": "0.6.1",
+    "safetensors": "0.8.0",
+    "einops": "0.8.2"
+  }
+}
